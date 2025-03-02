@@ -41,6 +41,8 @@ contract Assignment5 {
     // This function should:
     // - Be public
     // - Take two parameters: `id` (uint) and `name` (string) and userAddress (address)
+        // Hint: Define string as `string memory`
+        // The memory keyword will be explained later
     // - Add a new user to the `users` array
     // - Update the `userNames` mapping with the address and name
     function addUser() {
