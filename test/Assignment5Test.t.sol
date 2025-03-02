@@ -29,7 +29,7 @@ contract Assignment5Test is Test {
     }
 
     function testAddUser() public {
-        assignment.addUser(1, "Alice");
+        assignment.addUser(1, "Alice", makeAddr("test"));
         uint userCount = assignment.getUserCount();
         assertEq(userCount, 1, "User count should be 1");
     }

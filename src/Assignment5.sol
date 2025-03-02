@@ -40,11 +40,15 @@ contract Assignment5 {
     // Function to add a user
     // This function should:
     // - Be public
-    // - Take two parameters: `id` (uint) and `name` (string)
+    // - Take two parameters: `id` (uint) and `name` (string) and userAddress (address)
     // - Add a new user to the `users` array
     // - Update the `userNames` mapping with the address and name
     function addUser() {
         // Fill in the logic
+
+        // Hint: you have to use the keyword `memory` to define the struct
+            // For example: User memory user
+            // This keyword will be explained later
 
     }
 
@@ -54,8 +58,6 @@ contract Assignment5 {
     // - Return the length of the `users` array
     function getUserCount() {
         // Fill in the logic
-        // Hint: you have to use the keyword `memory` to define the struct
-            // For example: User memory user
-            // This keyword will be explained later
+
     }
 }
